@@ -100,7 +100,7 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -111,10 +111,31 @@ main{
   background: #fff8f3;
   margin-top: 130px;
 }
-.about-info-container{
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
+  border: 50px;
+}
+.info-title {
+  color: (#757575);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.info-description {
+  color: (#474747);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#what-i-do-description{
+  padding: 30px 150px;
+}
+
+/* skill portion */
+.skill-container{
+  display: flex;
 }
